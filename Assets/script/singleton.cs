@@ -11,7 +11,7 @@ public class singleton : MonoBehaviour
         {
             if (instance == null)
             {
-                var obj = FindAnyObjectByType<singleton>();
+                var obj = FindFirstObjectByType<singleton>();
                 if (obj != null)
                 {
                     instance = obj;
